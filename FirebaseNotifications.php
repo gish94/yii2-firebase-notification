@@ -6,9 +6,6 @@ use yii\base\Object;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 
-/**
- * @author Amr Alshroof
- */
 class FirebaseNotifications extends Object {
     /**
      * @var string the auth_key Firebase cloude messageing server key.
