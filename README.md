@@ -20,14 +20,14 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist "opensooq/yii2-firebase-notifications": "dev-master"
+php composer.phar require --prefer-dist "mackiavelly/yii2-firebase-notifications": "dev-master"
 
 ```
 
 or add
 
 ```
-"opensooq/yii2-firebase-notifications": "dev-master"
+"mackiavelly/yii2-firebase-notifications": "dev-master"
 ```
 to the require section of your composer.json file.
 
