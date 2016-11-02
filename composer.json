@@ -1,18 +1,21 @@
 {
-    "name": "opensooq/yii2-firebase-notifications",
+    "name": "mackiavelly/yii2-firebase-notifications",
     "description": "This extension will make send firebase notifications easy to do for the Yii2 framework",
     "type": "yii2-extension",
     "minimum-stability": "stable",
     "keywords": ["yii2","extension","firebase","notifications"],
     "license": "Apache-2.0",
     "support": {
-        "issues": "https://github.com/OpenSooq/yii2-firebase-notification/issues?state=open",
-        "source": "https://github.com/OpenSooq/yii2-firebase-notification"
+        "issues": "https://github.com/Mackiavelly/yii2-firebase-notification/issues?state=open",
+        "source": "https://github.com/Mackiavelly/yii2-firebase-notification"
     },
     "authors": [
         {
             "name": "Amr Alshroof",
             "email": "amr.Alshroof@gmail.com"
+        },{
+            "name": "Ksander	Zone",
+            "email": "ksander.zone@gmail.com"
         }
     ],
     "require": {
@@ -20,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "opensooq\\firebase\\": ""
+            "mackiavelly\\firebase\\": ""
         }
     }
 }
