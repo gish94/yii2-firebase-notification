@@ -1,5 +1,5 @@
 <?php
-namespace opensooq\firebase;
+namespace mackiavelly\firebase;
 
 use Yii;
 use yii\base\Object;
