@@ -1,9 +1,9 @@
 {
-    "name": "mackiavelly/yii2-firebase-notifications",
+    "name": "mackiavelly/yii2-firebase-notification",
     "description": "This extension will make send firebase notifications easy to do for the Yii2 framework",
     "type": "yii2-extension",
     "minimum-stability": "stable",
-    "keywords": ["yii2","extension","firebase","notifications"],
+    "keywords": ["yii2", "extension", "firebase", "notification"],
     "license": "Apache-2.0",
     "support": {
         "issues": "https://github.com/Mackiavelly/yii2-firebase-notification/issues?state=open",
