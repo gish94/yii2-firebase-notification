@@ -75,10 +75,11 @@ class FirebaseNotifications extends Object {
      * @param array  $options other FCM options
      * @return mixed
      */
-    public function sendNotification($tokens, $notification, $options = []) {
+    public function sendNotification($tokens, $notification,  $data = [], $options = []) {
         $body = [
             'registration_ids' => $tokens,
             'notification' => $notification,
+            'data' => $data
         ];
         $body = ArrayHelper::merge($body, $options);
         return $this->send($body);
